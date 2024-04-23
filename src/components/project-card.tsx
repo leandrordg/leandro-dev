@@ -1,8 +1,8 @@
-import Image from "next/image";
-import { Button } from "./ui/button";
 import { GitHubLogoIcon } from "@radix-ui/react-icons";
+import Image from "next/image";
 import Link from "next/link";
 import { Badge } from "./ui/badge";
+import { Button } from "./ui/button";
 
 type Props = {
   title: string;

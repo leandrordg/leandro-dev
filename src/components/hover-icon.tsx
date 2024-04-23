@@ -18,7 +18,7 @@ export function HoverIcon({
   return (
     <HoverCard>
       <HoverCardTrigger asChild>
-        <Button variant='ghost' size='icon'>
+        <Button variant="ghost" size="icon">
           <Image
             src={icon}
             alt={title}

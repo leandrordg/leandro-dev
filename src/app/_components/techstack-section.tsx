@@ -34,37 +34,37 @@ export function TechStackSection() {
         <TechCard
           title="Next.js 14.2"
           description="Next.js é um framework React que permite renderização no lado do servidor e geração de sites estáticos para aplicações web."
-          image="/nextjs.svg"
+          image="/icons/nextjs.svg"
           startedAt="2022"
         />
         <TechCard
           title="Tailwind CSS"
           description="Tailwind CSS é um framework CSS que permite a criação de interfaces de usuário personalizadas, através dos estilos por classes."
-          image="/tailwindcss.svg"
+          image="/icons/tailwindcss.svg"
           startedAt="2021"
         />
         <TechCard
           title="shadcn/ui"
           description="Uma biblioteca de componentes React que facilita a criação de interfaces de usuário, com componentes prontos e personalizáveis."
-          image="/shadcn.svg"
+          image="/icons/shadcn.svg"
           startedAt="2023"
         />
         <TechCard
           title="Next Auth v5"
           description="Next Auth é uma biblioteca de autenticação para Next.js que permite autenticação de usuários em aplicações web."
-          image="/next-auth.png"
+          image="/icons/next-auth.png"
           startedAt="2022"
         />
         <TechCard
           title="PostgreSQL"
           description="PostgreSQL é um sistema de gerenciamento de banco de dados relacional de código aberto, que utiliza a linguagem SQL."
-          image="/postgresql.svg"
+          image="/icons/postgresql.svg"
           startedAt="2023"
         />
         <TechCard
           title="Prisma ORM"
           description="Prisma é um ORM (Object-Relational Mapping) com suporte a TypeScript, que facilita a interação com bancos de dados SQL."
-          image="/prisma.svg"
+          image="/icons/prisma.svg"
           startedAt="2022"
         />
       </div>

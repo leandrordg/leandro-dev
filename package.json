@@ -1,6 +1,11 @@
 {
   "name": "leandro-dev",
-  "version": "0.1.0",
+  "description": "My personal portfolio website.",
+  "author": {
+    "name": "Leandro Rodrigues",
+    "url": "https://leandro-dev.vercel.app"
+  },
+  "version": "0.1.1",
   "private": true,
   "scripts": {
     "dev": "next dev --turbo",

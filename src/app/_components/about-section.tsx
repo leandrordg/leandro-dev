@@ -56,7 +56,7 @@ export function AboutSection() {
           </div>
 
           <Button variant="link" asChild className="px-0 text-muted-foreground">
-            <Link target="_blank" href="/leandro-dev.pdf">
+            <Link target="_blank" href="/leandro-dev.pdf" download={true}>
               <FileTextIcon className="mr-1" />
               obter o currículo
             </Link>
@@ -64,7 +64,7 @@ export function AboutSection() {
         </div>
         <div className="flex items-center justify-center">
           <Image
-            src="/avatar.jpg"
+            src="/images/avatar.jpg"
             alt="Leandro Rodrigues"
             width={500}
             height={500}

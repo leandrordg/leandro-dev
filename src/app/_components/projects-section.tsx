@@ -16,20 +16,20 @@ export function ProjectsSection() {
         <ProjectCard
           title="CRUD w/Fastify.js"
           description="Um CRUD criado com Fastify e Prisma ORM utilizado para fins de testes e aprendizagem do Node.js"
-          src="/CRUD.png"
+          src="/images/CRUD.png"
           repositoryLink="https://github.com/leandrordg/crud-fastify"
         />
         <ProjectCard
           title="Social Media"
           description="Um aplicativo de rede social moderno e inovador desenvolvido com Next.js 14, Clerk.js, Prisma ORM e PostgreSQL. Estilização conta com Tailwind CSS e Shadcn/UI."
-          src="/SOCIAL-MEDIA.png"
+          src="/images/SOCIAL-MEDIA.png"
           repositoryLink="https://github.com/leandrordg/posts-clerk"
           beta
         />
         <ProjectCard
           title="Authentication Methods"
           description="Uma aplicação front-end que trás um completo layout de telas de login, cadastro, recuperação de senha e otp."
-          src="/AUTHENTICATION-METHODS.png"
+          src="/images/AUTHENTICATION-METHODS.png"
           repositoryLink="https://github.com/leandrordg/authentication-methods"
         />
       </div>

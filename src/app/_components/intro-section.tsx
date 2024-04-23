@@ -35,22 +35,22 @@ export function IntroSection() {
         </h1>
         <div className="flex items-center gap-2">
           <HoverIcon
-            icon="/nextjs.svg"
+            icon="/icons/nextjs.svg"
             title="Next.js"
             content="Framework Front-End com Server Actions e Dynamic Routes"
           />
           <HoverIcon
-            icon="/typescript.svg"
+            icon="/icons/typescript.svg"
             title="Typescript"
             content="Definição de Tipos e Interfaces para Javascript"
           />
           <HoverIcon
-            icon="/prisma.svg"
+            icon="/icons/prisma.svg"
             title="Prisma ORM"
             content="Operação de Banco de Dados com suporte a Typescript"
           />
           <HoverIcon
-            icon="/tailwindcss.svg"
+            icon="/icons/tailwindcss.svg"
             title="Tailwind CSS"
             content="Estilização de componentes por classes CSS"
           />

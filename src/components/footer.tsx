@@ -1,11 +1,11 @@
-import Link from "next/link";
 import { NavbarLink } from "@/components/navbar-link";
+import { Button } from "@/components/ui/button";
 import {
   GitHubLogoIcon,
-  LinkedInLogoIcon,
   InstagramLogoIcon,
+  LinkedInLogoIcon,
 } from "@radix-ui/react-icons";
-import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 export function Footer() {
   return (
@@ -53,8 +53,7 @@ export function Footer() {
           </div>
         </div>
         <div className="py-4 bg-primary w-full text-center text-xs text-white">
-          {new Date().getFullYear()} &copy; leandro-dev. All rights reserved |
-          Developed by Leandro Rodrigues
+          {new Date().getFullYear()} &copy; leandro-dev. All rights reserved
         </div>
       </div>
     </footer>
