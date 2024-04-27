@@ -40,7 +40,7 @@ export function AboutSection() {
             <Button variant="outline" asChild>
               <Link
                 target="_blank"
-                href="https://www.linkedin.com/in/leandro-rodrigues-8aaa19221/"
+                href="https://www.linkedin.com/in/lrbertalhia"
               >
                 <LinkedInLogoIcon />
               </Link>
