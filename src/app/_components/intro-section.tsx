@@ -31,7 +31,7 @@ export function IntroSection() {
         <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold">
           Web Developer
           <br />
-          <span className="text-primary">Front-End</span>
+          <span className="text-primary">Full-Stack</span>
         </h1>
         <div className="flex items-center gap-2">
           <HoverIcon
