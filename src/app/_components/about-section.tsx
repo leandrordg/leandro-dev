@@ -23,12 +23,12 @@ export function AboutSection() {
         <div className="flex flex-col items-center lg:items-start text-center lg:text-start gap-4">
           <h1 className="text-2xl font-bold text-primary">@leandrordg</h1>
           <p className="tracking-wide max-w-lg dark:text-muted-foreground">
-            Me chamo Leandro Rodrigues, tenho 19 anos e sou programador na parte
-            do Front-End. Comecei os estudos no ano de 2019, e desde então venho
-            me aprimorando cada vez mais. Atualmente estou estudando sobre o
-            Next.js e Typescript, e estou gostando bastante da experiência. Meu
-            objetivo é me tornar um desenvolvedor Full Stack, e para isso estou
-            estudando bastante sobre o Back-End.
+            Me chamo Leandro Rodrigues, tenho 19 anos e sou programador Full-Stack.
+            Comecei os estudos no ano de 2019, e desde então venho me aprimorando
+            cada vez mais. Atualmente estou estudando sobre o Next.js e Typescript, 
+            e estou gostando bastante da experiência. Meu objetivo é me tornar um 
+            desenvolvedor Full Stack, e para isso estou estudando bastante sobre 
+            o Back-End.
           </p>
 
           <div className="flex items-center gap-4">
