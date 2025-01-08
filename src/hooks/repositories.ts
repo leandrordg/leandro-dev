@@ -1,6 +1,6 @@
 export const getRepositories = async (): Promise<Repository[]> => {
   const response = await fetch(
-    "https://api.github.com/users/leandrordg/repos?sort=updated&per_page=10"
+    "https://api.github.com/users/leandrordg/repos?sort=updated&per_page=5"
   );
   return await response.json();
 };
