@@ -32,7 +32,7 @@ export function TechStackSection() {
 
       <div className="grid grid-cols-1 lg:grid-cols-2 max-w-screen-lg mx-auto gap-6">
         <TechCard
-          title="Next.js 14.2"
+          title="Next.js"
           description="Next.js é um framework React que permite renderização no lado do servidor e geração de sites estáticos para aplicações web."
           image="/icons/nextjs.svg"
           startedAt="2022"
@@ -44,14 +44,14 @@ export function TechStackSection() {
           startedAt="2021"
         />
         <TechCard
-          title="shadcn/ui"
+          title="Shadcn UI"
           description="Uma biblioteca de componentes React que facilita a criação de interfaces de usuário, com componentes prontos e personalizáveis."
           image="/icons/shadcn.svg"
           startedAt="2023"
         />
         <TechCard
-          title="Next Auth v5"
-          description="Next Auth é uma biblioteca de autenticação para Next.js que permite autenticação de usuários em aplicações web."
+          title="Auth.js"
+          description="Auth.js é uma biblioteca de autenticação para Next.js que permite autenticação totalmente customizável de usuários em aplicações web."
           image="/icons/next-auth.png"
           startedAt="2022"
         />

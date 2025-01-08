@@ -1,10 +1,11 @@
+import Image from "next/image";
+
 import { Button } from "@/components/ui/button";
 import {
   HoverCard,
   HoverCardContent,
   HoverCardTrigger,
 } from "@/components/ui/hover-card";
-import Image from "next/image";
 
 export function HoverIcon({
   icon,

@@ -1,5 +1,6 @@
-import { CalendarIcon } from "@radix-ui/react-icons";
 import Image from "next/image";
+
+import { CalendarIcon } from "@radix-ui/react-icons";
 import { Card, CardDescription, CardHeader, CardTitle } from "./ui/card";
 
 type Props = {

@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 import { NavbarLink } from "@/components/navbar-link";
 import { Button } from "@/components/ui/button";
 import {
@@ -5,7 +7,6 @@ import {
   InstagramLogoIcon,
   LinkedInLogoIcon,
 } from "@radix-ui/react-icons";
-import Link from "next/link";
 
 export function Footer() {
   return (
@@ -19,12 +20,12 @@ export function Footer() {
             leandro-dev
           </Link>
           <ul className="flex flex-col items-start">
-            <h2 className="ml-4 text-lg text-muted-foreground">Navigation</h2>
+            <h2 className="ml-4 text-lg text-muted-foreground">Navegar</h2>
             <NavbarLink content="About me" hrefId="about-me" />
             <NavbarLink content="Tech Stack" hrefId="tech-stack" />
           </ul>
           <ul className="flex flex-col items-start">
-            <h2 className="ml-4 text-lg text-muted-foreground">Navigation</h2>
+            <h2 className="ml-4 text-lg text-muted-foreground">Navegar</h2>
             <NavbarLink content="Projects" hrefId="projects" />
             <NavbarLink content="Newsletter" hrefId="newsletter" />
           </ul>
@@ -37,7 +38,7 @@ export function Footer() {
             <Button variant="outline" asChild>
               <Link
                 target="_blank"
-                href="https://www.linkedin.com/in/leandro-rodrigues-8aaa19221/"
+                href="https://www.linkedin.com/in/lrbertalhia"
               >
                 <LinkedInLogoIcon />
               </Link>

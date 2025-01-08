@@ -1,3 +1,6 @@
+import Image from "next/image";
+import Link from "next/link";
+
 import { Button } from "@/components/ui/button";
 import {
   ArrowDownIcon,
@@ -6,10 +9,11 @@ import {
   InstagramLogoIcon,
   LinkedInLogoIcon,
 } from "@radix-ui/react-icons";
-import Image from "next/image";
-import Link from "next/link";
+import { getAge } from "@/lib/utils";
 
 export function AboutSection() {
+  const age = getAge("25-10-2004");
+
   return (
     <section
       id="about-me"
@@ -23,12 +27,11 @@ export function AboutSection() {
         <div className="flex flex-col items-center lg:items-start text-center lg:text-start gap-4">
           <h1 className="text-2xl font-bold text-primary">@leandrordg</h1>
           <p className="tracking-wide max-w-lg dark:text-muted-foreground">
-            Me chamo Leandro Rodrigues, tenho 19 anos e sou programador Full-Stack.
-            Comecei os estudos no ano de 2019, e desde então venho me aprimorando
-            cada vez mais. Atualmente estou estudando sobre o Next.js e Typescript, 
-            e estou gostando bastante da experiência. Meu objetivo é me tornar um 
-            desenvolvedor Full Stack, e para isso estou estudando bastante sobre 
-            o Back-End.
+            Sou Leandro Rodrigues, tenho {age} anos e sou desenvolvedor
+            Full-Stack. Iniciei meus estudos em 2019 e, desde então, venho me
+            aprimorando constantemente. Atualmente, estou explorando Next.js e
+            TypeScript e estou gostando muito dessa experiência. Meu objetivo é
+            me tornar um desenvolvedor Full-Stack.
           </p>
 
           <div className="flex items-center gap-4">
@@ -64,7 +67,7 @@ export function AboutSection() {
         </div>
         <div className="flex items-center justify-center">
           <Image
-            src="/images/avatar.jpg"
+            src="/images/avatar.JPEG"
             alt="Leandro Rodrigues"
             width={500}
             height={500}

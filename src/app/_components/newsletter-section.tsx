@@ -13,7 +13,7 @@ export function NewsletterSection() {
           <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold text-accent-foreground">
             Newsletter
           </h1>
-          <Badge variant='secondary'>BETA</Badge>
+          <Badge variant="secondary">BETA</Badge>
         </div>
         <p className="text-muted-foreground tracking-wide">
           Cadastre-se no meu newsletter e fique por dentro de todas as
@@ -21,12 +21,12 @@ export function NewsletterSection() {
         </p>
       </div>
 
-      <div className="flex flex-col gap-4 md:flex-row md:items-center max-w-screen-lg mx-auto w-full">
+      <form className="flex flex-col gap-4 md:flex-row md:items-center max-w-screen-lg mx-auto w-full">
         <Input type="email" placeholder="email@example.com" />
         <Button size="lg" className="text-white">
           Inscrever-se
         </Button>
-      </div>
+      </form>
     </section>
   );
 }

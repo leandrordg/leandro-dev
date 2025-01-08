@@ -1,4 +1,5 @@
 import Link from "next/link";
+
 import { NavbarLink } from "./navbar-link";
 import { ThemeToggle } from "./theme-toggle";
 
