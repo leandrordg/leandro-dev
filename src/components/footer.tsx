@@ -27,7 +27,7 @@ export function Footer() {
           <ul className="flex flex-col items-start">
             <h2 className="ml-4 text-lg text-muted-foreground">Navegar</h2>
             <NavbarLink content="Projects" hrefId="projects" />
-            <NavbarLink content="Newsletter" hrefId="newsletter" />
+            <NavbarLink content="Contact" hrefId="contact" />
           </ul>
           <div className="flex items-start gap-4">
             <Button variant="outline" asChild>

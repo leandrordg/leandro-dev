@@ -18,7 +18,7 @@ export function Navbar() {
           <NavbarLink content="About me" hrefId="about-me" />
           <NavbarLink content="Tech Stack" hrefId="tech-stack" />
           <NavbarLink content="Projects" hrefId="projects" />
-          <NavbarLink content="Newsletter" hrefId="newsletter" />
+          <NavbarLink content="Contact" hrefId="contact" />
         </ul>
 
         <ThemeToggle />
