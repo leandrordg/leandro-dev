@@ -1,5 +1,7 @@
 "use client";
 
+import Link from "next/link";
+
 import { sendMail } from "@/hooks/send-mail";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useForm } from "react-hook-form";
@@ -18,7 +20,6 @@ import {
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Loader2Icon, SendIcon } from "lucide-react";
-import Link from "next/link";
 
 const formSchema = z.object({
   name: z.string().min(2, { message: "Nome obrigatório" }),
@@ -42,6 +43,7 @@ export function ContactSection() {
   async function onSubmit(values: z.infer<typeof formSchema>) {
     try {
       await sendMail(values);
+
       toast.success("Mensagem enviada com sucesso!");
     } catch (error) {
       toast.error("Erro ao enviar mensagem");

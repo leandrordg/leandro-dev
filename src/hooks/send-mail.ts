@@ -16,17 +16,13 @@ export const sendMail = async ({
   };
 
   const request = await emailjs.send(
-    "service_4zh7eyf",
-    "template_hsj9w4s",
+    process.env.NEXT_PUBLIC_EMAILJS_SERVICE_KEY as string,
+    process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_KEY as string,
     params,
     {
-      publicKey: "pORv958XfCWHbFbX9",
+      publicKey: process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY as string,
     }
   );
 
-  if (request.status === 200) {
-    return { success: true };
-  } else {
-    throw new Error("Erro ao enviar o e-mail!");
-  }
+  if (request.status !== 200) throw new Error("Erro ao enviar o e-mail!");
 };
